@@ -15,4 +15,6 @@ const app: express.Application = express()
 
 const badgeHandler: BadgeHandler = new BadgeHandler(app)
 
-app.listen(8080)
+const port = process.env.PORT || 8080
+
+app.listen(port)
