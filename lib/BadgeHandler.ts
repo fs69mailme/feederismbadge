@@ -1,8 +1,6 @@
 import express = require('express')
-import { BadgeType } from './BadgeType'
 import { BadgeGenerator } from './BadgeGenerator'
 import { StripeBadgeGenerator } from './StripeBadgeGenerator'
-import { BadgeOptions } from './BadgeOptions'
 import * as sharp from 'sharp'
 import { RoundBadgeGenerator } from './RoundBadgeGenerator'
 
