@@ -21,6 +21,12 @@
     "lib/**/*.js.map",
     "lib/**/*.d.ts"
   ],
+  "scripts": {
+    "start": "grunt build && node index.js"
+  },
+  "engines": {
+    "node": "10.15.1"
+  },
   "dependencies": {
     "bluebird": "^3.5.3",
     "loglevel": "^1.6.1",
